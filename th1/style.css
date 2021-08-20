@@ -21,7 +21,6 @@ body {
 }
 
 .main {
-  font-size: 1.25em;
   display: flex;
 }
 
@@ -33,23 +32,24 @@ body {
 .nav-list {
   list-style-type: none;
   padding: 0;
-  background-color: #808080;
-  color: #fff;
 }
 
 .nav-list-item {
+  background-color: #808080;
+  color: #fff;
   margin-bottom: 0.5em;
   height: 2em;
 }
 
 .nav-list-link {
   display: block;
-  padding: 0.5em;
+  margin: 0.5em;
   color: #fff;
   text-decoration: none;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 2em;
 }
 
 .section {
@@ -59,7 +59,7 @@ body {
 }
 
 .section__header {
-  font-size: 5vw;
+  font-size: calc(0.05 * 100vw);
   text-align: center;
 }
 
